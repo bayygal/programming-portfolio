@@ -107,9 +107,20 @@ p2 {
     margin-bottom:  1.25rem;
 }
 
+.background {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -5;
+    top: 0;
+    left: 0;
+    background-color: #f2f5f8;
+    overflow-x: hidden;
+    text-decoration: none;
+    padding-top: 50px;
+}
 .page-content {
     padding-left: 2.5rem;
-    background-color: #f2f5f8;
     height: 100%;
     padding-right: 2.5rem;
     margin-left: 20%;
